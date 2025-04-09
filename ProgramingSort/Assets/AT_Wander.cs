@@ -3,6 +3,7 @@ using ParadoxNotion.Design;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 namespace NodeCanvas.Tasks.Actions {
 
@@ -19,9 +20,35 @@ namespace NodeCanvas.Tasks.Actions {
 		//EndAction can be called from anywhere.
 		protected override void OnExecute() {
 			float oldValue = blackboard.GetVariableValue<float>("TimeSinceTrashThrown");
-			blackboard.SetVariableValue("TimeSinceTrashThrown", oldValue + Time.deltaTime);
+			blackboard.SetVariableValue("TimeSinceTrashThrown", oldValue + Time.deltaTime * Random.Range(0.6f, 1.4f));
+
+			if(blackboard.GetVariableValue<Vector3>("WanderPos") == Vector3.zero)
+            {
+				blackboard.SetVariableValue("WanderPos", FindPos());
+            }
+            else
+            {
+				agent.GetComponent<NavMeshAgent>().destination = blackboard.GetVariableValue<Vector3>("WanderPos");
+
+				if(Vector3.Distance(agent.transform.position, blackboard.GetVariableValue<Vector3>("WanderPos")) < 1f)
+                {
+					blackboard.SetVariableValue("WanderPos", Vector3.zero);
+				}
+			}
 			EndAction(true);
 		}
+
+		Vector3 FindPos()
+        {
+			Vector3 rand = new Vector3(Random.Range(-1f,1f), 0, Random.Range(-1f, 1f)) * 40f;
+			Vector3 posOnNav = Vector3.zero;
+			NavMeshHit hit;
+			if (NavMesh.SamplePosition(rand, out hit, 40f, NavMesh.AllAreas))
+			{
+				posOnNav = hit.position;
+			}
+			return posOnNav;
+        }
 
 		//Called once per frame while the action is active.
 		protected override void OnUpdate() {

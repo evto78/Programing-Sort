@@ -11,6 +11,7 @@ namespace NodeCanvas.Tasks.Conditions {
 		//Use for initialization. This is called only once in the lifetime of the task.
 		//Return null if init was successfull. Return an error string otherwise
 		protected override string OnInit(){
+			blackboard.SetVariableValue("TimeSinceTrashThrown", Random.Range(-15f, 6f));
 			return null;
 		}
 

@@ -18,7 +18,18 @@ namespace NodeCanvas.Tasks.Actions {
 		//Call EndAction() to mark the action as finished, either in success or failure.
 		//EndAction can be called from anywhere.
 		protected override void OnExecute() {
-			blackboard.SetVariableValue("TimeSinceTrashThrown", 0f);
+			blackboard.SetVariableValue("TimeSinceTrashThrown", Random.Range(-6f, -15f));
+
+			List<GameObject> trashList = blackboard.GetVariableValue<List<GameObject>>("Trash");
+			int rand = Random.Range(0, 2);
+			Debug.Log(rand);
+
+			GameObject spawnedTrash = GameObject.Instantiate(trashList[rand]);
+			spawnedTrash.transform.SetParent(null);
+			spawnedTrash.transform.position = agent.transform.position + Vector3.up * 2f;
+			spawnedTrash.GetComponent<Rigidbody>().AddForce(Vector3.up * 5f, ForceMode.Impulse);
+			spawnedTrash.GetComponent<Rigidbody>().AddForce(new Vector3(Random.Range(-1f, 1f), 0, Random.Range(-1f, 1f)) * 4f, ForceMode.Impulse);
+
 			EndAction(true);
 		}
 
