@@ -20,12 +20,14 @@ namespace NodeCanvas.Tasks.Actions {
 		protected override void OnExecute() {
 			float oldVal = blackboard.GetVariableValue<float>("PrepareTimer");
 			blackboard.SetVariableValue("PrepareTimer", oldVal - Time.deltaTime);
-
+			blackboard.GetVariableValue<GameObject>("DiggingEffect").SetActive(true);
+			blackboard.GetVariableValue<GameObject>("SurprisedEffect").SetActive(false);
 			if (oldVal <= 0)
 			{
 				foreach (GameObject can in blackboard.GetVariableValue<List<GameObject>>("TrashCans"))
 				{
 					can.SendMessage("KnockOver", SendMessageOptions.DontRequireReceiver);
+					agent.transform.LookAt(can.transform.position);
 				}
 			}
 			EndAction(true);

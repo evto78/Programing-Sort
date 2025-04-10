@@ -20,8 +20,10 @@ namespace NodeCanvas.Tasks.Actions {
 		protected override void OnExecute() {
 			blackboard.SetVariableValue("Running", true);
 			agent.transform.position = agent.transform.position - ((blackboard.GetVariableValue<Vector3>("RunFrom") - agent.transform.position).normalized * 5f * Time.deltaTime);
+			agent.transform.LookAt(-blackboard.GetVariableValue<Vector3>("RunFrom"));
 			agent.transform.position = new Vector3(agent.transform.position.x, 0, agent.transform.position.z);
-
+			blackboard.GetVariableValue<GameObject>("DiggingEffect").SetActive(false);
+			blackboard.GetVariableValue<GameObject>("SurprisedEffect").SetActive(true);
 			EndAction(true);
 		}
 

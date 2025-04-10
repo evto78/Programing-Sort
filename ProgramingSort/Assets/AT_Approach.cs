@@ -19,7 +19,11 @@ namespace NodeCanvas.Tasks.Actions {
 		//EndAction can be called from anywhere.
 		protected override void OnExecute() {
 			Vector3 trashPos = blackboard.GetVariableValue<List<GameObject>>("TrashCans")[0].transform.position;
-			agent.transform.position = agent.transform.position + ((trashPos - agent.transform.position).normalized * 0.5f * Time.deltaTime);
+			agent.transform.position = agent.transform.position + ((trashPos - agent.transform.position).normalized * 1f * Time.deltaTime);
+			agent.transform.position = new Vector3(agent.transform.position.x, 0, agent.transform.position.z);
+			agent.transform.LookAt(trashPos);
+			blackboard.GetVariableValue<GameObject>("DiggingEffect").SetActive(false);
+			blackboard.GetVariableValue<GameObject>("SurprisedEffect").SetActive(false);
 			EndAction(true);
 		}
 

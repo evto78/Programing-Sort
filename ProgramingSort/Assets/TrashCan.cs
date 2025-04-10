@@ -7,6 +7,8 @@ public class TrashCan : MonoBehaviour
     public bool knockedOver;
     public List<GameObject> trash;
 
+    public bool isGarbage;
+
     void Update()
     {
         if (knockedOver)
@@ -19,6 +21,28 @@ public class TrashCan : MonoBehaviour
             transform.position = new Vector3(transform.position.x, 0.9f, transform.position.z);
             transform.localEulerAngles = Vector3.zero;
         }
+
+        if (!isGarbage)
+        {
+            foreach (GameObject rec in GameObject.FindGameObjectsWithTag("Recycling"))
+            {
+                if (Vector3.Distance(rec.transform.position, transform.position) < 3f)
+                {
+                    Destroy(rec);
+                }
+            }
+        }
+        else
+        {
+            foreach (GameObject gar in GameObject.FindGameObjectsWithTag("Garbage"))
+            {
+                if (Vector3.Distance(gar.transform.position, transform.position) < 3f)
+                {
+                    Destroy(gar);
+                }
+            }
+        }
+        
     }
 
     public void KnockOver()
