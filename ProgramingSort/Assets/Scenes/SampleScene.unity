@@ -384,6 +384,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Citizen (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
+      propertyPath: m_TagString
+      value: Person
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -546,6 +554,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Citizen (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
+      propertyPath: m_TagString
+      value: Person
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -602,6 +618,14 @@ PrefabInstance:
     - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
       propertyPath: m_Name
       value: Citizen (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
+      propertyPath: m_TagString
+      value: Person
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -764,6 +788,14 @@ PrefabInstance:
     - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
       propertyPath: m_Name
       value: Citizen (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
+      propertyPath: m_TagString
+      value: Person
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -993,7 +1025,7 @@ GameObject:
   - component: {fileID: 208294982}
   m_Layer: 3
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1529,6 +1561,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Citizen (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
+      propertyPath: m_TagString
+      value: Person
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1795,6 +1835,14 @@ PrefabInstance:
     - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
       propertyPath: m_Name
       value: Citizen (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
+      propertyPath: m_TagString
+      value: Person
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2496,6 +2544,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Citizen (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
+      propertyPath: m_TagString
+      value: Person
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2763,6 +2819,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Citizen (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
+      propertyPath: m_TagString
+      value: Person
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3029,6 +3093,14 @@ PrefabInstance:
     - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
       propertyPath: m_Name
       value: Citizen (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
+      propertyPath: m_TagString
+      value: Person
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3958,7 +4030,7 @@ Transform:
   m_GameObject: {fileID: 1072438210}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.02, y: 0, z: -2.86}
+  m_LocalPosition: {x: -17.11, y: 0, z: -1.81}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3998,14 +4070,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _serializedExposedParameters: []
-  _boundGraphSerialization: '{"type":"NodeCanvas.BehaviourTrees.BehaviourTree","nodes":[],"connections":[],"canvasGroups":[],"localBlackboard":{"_variables":{}},"derivedData":{"repeat":true,"$type":"NodeCanvas.BehaviourTrees.BehaviourTree+DerivedSerializationData"}}'
-  _boundGraphObjectReferences: []
+  _boundGraphSerialization: '{"type":"NodeCanvas.BehaviourTrees.BehaviourTree","nodes":[{"_position":{"x":220.0,"y":274.0},"$type":"NodeCanvas.BehaviourTrees.Selector","$id":"0"},{"_position":{"x":112.2651,"y":373.195},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"1"},{"_condition":{"$type":"NodeCanvas.Tasks.Conditions.CT_NearPerson"},"_position":{"x":48.06178,"y":440.39},"$type":"NodeCanvas.BehaviourTrees.ConditionNode","$id":"2"},{"_action":{"$type":"NodeCanvas.Tasks.Actions.AT_Run"},"_position":{"x":184.0618,"y":441.39},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"3"},{"_position":{"x":359.0835,"y":378.9918},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"4"},{"_condition":{"$type":"NodeCanvas.Tasks.Conditions.CT_NearCan"},"_position":{"x":283.0836,"y":439.9918},"$type":"NodeCanvas.BehaviourTrees.ConditionNode","$id":"5"},{"_action":{"$type":"NodeCanvas.Tasks.Actions.AT_KnockOver"},"_position":{"x":401.0836,"y":438.9918},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"6"},{"_action":{"$type":"NodeCanvas.Tasks.Actions.AT_Approach"},"_position":{"x":496.0,"y":364.0},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"7"}],"connections":[{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"7"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"3"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"5"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"6"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{"TrashCans":{"_value":[1,2],"_name":"TrashCans","_id":"09e1c073-eb52-469f-a4df-f4267ae5af38","$type":"NodeCanvas.Framework.Variable`1[[System.Collections.Generic.List`1[[UnityEngine.GameObject,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"RunFrom":{"_name":"RunFrom","_id":"71a618cf-1ea3-4dd9-9d59-641f0d3be967","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.Vector3,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"Running":{"_name":"Running","_id":"efe45cfc-bd80-442a-9318-9f9149989f6a","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"PrepareTimer":{"_value":5.0,"_name":"PrepareTimer","_id":"c79ff3f8-7cfb-48fb-9f69-be7317d3d926","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}}},"derivedData":{"repeat":true,"$type":"NodeCanvas.BehaviourTrees.BehaviourTree+DerivedSerializationData"}}'
+  _boundGraphObjectReferences:
+  - {fileID: 0}
+  - {fileID: 1354505711}
+  - {fileID: 1144197852}
   _boundGraphSource:
     _version: 3.31
     _category: 
     _comments: 
-    _translation: {x: 0, y: 0}
-    _zoomFactor: 1
+    _translation: {x: 34.632076, y: 48.437454}
+    _zoomFactor: 0.715132
   _firstActivation: 0
   _enableAction: 0
   _disableAction: 0
@@ -4275,6 +4355,14 @@ PrefabInstance:
     - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
       propertyPath: m_Name
       value: Citizen (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
+      propertyPath: m_TagString
+      value: Person
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4586,6 +4674,7 @@ GameObject:
   - component: {fileID: 1144197855}
   - component: {fileID: 1144197854}
   - component: {fileID: 1144197853}
+  - component: {fileID: 1144197857}
   m_Layer: 0
   m_Name: Recycling bin
   m_TagString: Untagged
@@ -4675,12 +4764,28 @@ Transform:
   m_GameObject: {fileID: 1144197852}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.54, z: 1.64}
+  m_LocalPosition: {x: 0, y: 0.9, z: 1.64}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1144197857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144197852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ca53f28443be9f49803c12920b6d3ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  knockedOver: 0
+  trash:
+  - {fileID: 180746756991898742, guid: 687760eaa446d654c8a0ac69e9156705, type: 3}
+  - {fileID: 7224916632552715791, guid: 42760eca9a6e02d4db9c3cf7b31087da, type: 3}
 --- !u!1001 &1184283057
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4732,6 +4837,14 @@ PrefabInstance:
     - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
       propertyPath: m_Name
       value: Citizen (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
+      propertyPath: m_TagString
+      value: Person
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5148,6 +5261,7 @@ GameObject:
   - component: {fileID: 1354505714}
   - component: {fileID: 1354505713}
   - component: {fileID: 1354505712}
+  - component: {fileID: 1354505716}
   m_Layer: 0
   m_Name: Garbage can
   m_TagString: Untagged
@@ -5237,12 +5351,28 @@ Transform:
   m_GameObject: {fileID: 1354505711}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.54, z: -1.74}
+  m_LocalPosition: {x: 0, y: 0.9, z: -1.74}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1354505716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354505711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ca53f28443be9f49803c12920b6d3ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  knockedOver: 0
+  trash:
+  - {fileID: 180746756991898742, guid: 687760eaa446d654c8a0ac69e9156705, type: 3}
+  - {fileID: 7224916632552715791, guid: 42760eca9a6e02d4db9c3cf7b31087da, type: 3}
 --- !u!1 &1359062688
 GameObject:
   m_ObjectHideFlags: 0
@@ -5399,6 +5529,14 @@ PrefabInstance:
     - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
       propertyPath: m_Name
       value: Citizen (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
+      propertyPath: m_TagString
+      value: Person
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5666,6 +5804,14 @@ PrefabInstance:
     - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
       propertyPath: m_Name
       value: Citizen (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
+      propertyPath: m_TagString
+      value: Person
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6628,6 +6774,14 @@ PrefabInstance:
     - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
       propertyPath: m_Name
       value: Citizen (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
+      propertyPath: m_TagString
+      value: Person
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12020,6 +12174,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Citizen (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
+      propertyPath: m_TagString
+      value: Person
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12497,6 +12659,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Citizen (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
+      propertyPath: m_TagString
+      value: Person
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12658,6 +12828,10 @@ PrefabInstance:
     - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
       propertyPath: m_Name
       value: Citizen
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613600416306661221, guid: f1965e7e823ffcf43a715d4b659f945f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

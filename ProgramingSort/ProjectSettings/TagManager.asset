@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Garbage
   - Recycling
+  - Person
   layers:
   - Default
   - TransparentFX
